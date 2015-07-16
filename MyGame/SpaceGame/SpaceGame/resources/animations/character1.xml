@@ -27,6 +27,18 @@
 			<frame name="Rock8" time="150" />
 			<frame name="Rock9" time="150" />
 			<frame name="Rock10" time="150" />
+		</sequence>	
+		<sequence name="rock">
+			<frame name="Rock2" time="150" />
+			<frame name="Rock1" time="150" />
+			<frame name="Rock4" time="150" />
+			<frame name="Rock3" time="150" />
+			<frame name="Rock6" time="150" />
+			<frame name="Rock5" time="150" />
+			<frame name="Rock8" time="150" />
+			<frame name="Rock7" time="150" />
+			<frame name="Rock10" time="150" />
+			<frame name="Rock9" time="150" />
 		</sequence>			
 	</sequences>
 </animation>
