@@ -14,6 +14,7 @@
     <ProjectGuid>{C71606B1-01F1-4F6C-AF0C-551D6AC50A84}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SpaceGame</RootNamespace>
+    <TargetPlatformVersion>10.0.10069.0</TargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -84,15 +85,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Controls.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="Save.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="tools\editor_tileless\CIndieLib.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Controls.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="Planet.h" />
+    <ClInclude Include="Save.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="tools\editor_tileless\CIndieLib.h" />
   </ItemGroup>

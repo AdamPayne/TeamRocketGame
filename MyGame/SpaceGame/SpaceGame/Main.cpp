@@ -6,6 +6,7 @@
 #include "IND_Entity2d.h"
 #include "IND_Animation.h"
 #include "IND_Font.h"
+#include "Controls.h"
 #include "Planet.h"
 #include "Ship.h"
 
@@ -29,10 +30,10 @@ int IndieLib()
 	// ----- Surface loading -----
 
 	IND_Surface *mSurfaceBack = IND_Surface::newSurface();
-	if (!mI->_surfaceManager->add(mSurfaceBack, "../SpaceGame/resources/Backgrounds/18.jpg", IND_OPAQUE, IND_32)) return 0;
+	if (!mI->_surfaceManager->add(mSurfaceBack, "resources/Backgrounds/18.jpg", IND_OPAQUE, IND_32)) return 0;
 
 	IND_Font* mFont = IND_Font::newFont();
-	if (!mI->_fontManager->add(mFont, "../SpaceGame/resources/font_big.png", "../SpaceGame/resources/font_big.xml", IND_ALPHA, IND_32)) return 0;
+	if (!mI->_fontManager->add(mFont, "resources/font_small.png", "../SpaceGame/resources/font_small.xml", IND_ALPHA, IND_32)) return 0;
 
 	// Loding 2D Entities
 
@@ -44,18 +45,22 @@ int IndieLib()
 	IND_Entity2d* mText = IND_Entity2d::newEntity2d();
 	mI->_entity2dManager->add(mText);
 	mText->setFont(mFont);
-	mText->setPosition(1366, 200, 0);
+	mText->setPosition(1300, 200, 0);
 	//mText->setText("");
 
+	Controls* controls = new Controls();
+	controls->loadSettings();
+	controls->writeMap();
+
 	Planet* mPlanet = new Planet();
-	mPlanet->createPlanet(mI, "../SpaceGame/resources/planets/1.png", 100, 100, 0.5f, 0.5f);
+	mPlanet->createPlanet(mI, "./resources/planets/1.png", 100, 100, 0.5f, 0.5f);
 
 	Ship* mShip = new Ship();
-	mShip->createShip(mI, "../SpaceGame/resources/Spaceship with motor new/Ship_advance.xml", winWidth/2, winHeight/2, 0.1f, 0.1f);
+	mShip->createShip(mI, "./resources/Spaceship with motor new/Ship_advance.xml", winWidth/2, winHeight/2, 0.1f, 0.1f);
 
 	while (!mI->_input->onKeyPress(IND_ESCAPE) && !mI->_input->quit())
 	{
-		mShip->moveShip();
+		mShip->moveShip(controls);
 		//mI->_render->showFpsInWindowTitle();
 		mI->_input->update();
 		mI->_render->beginScene();
