@@ -63,6 +63,11 @@ void Controls::loadSettings()
 			count++;
 		}
 	}
+	for (std::map<const char*, const char*>::iterator it = stringKeys.begin(); it != stringKeys.end(); ++it)
+	{
+		delete[] it->first;
+		delete[] it->second;
+	}
 	indKeys.close();
 	customKeys.close();
 }

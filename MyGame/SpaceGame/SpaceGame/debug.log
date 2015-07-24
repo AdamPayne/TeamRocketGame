@@ -13,25 +13,25 @@
                              (_/                        
 Indielib version: 0.5.1
 
-[Init time]: (Thrusday, 23 of July 2015)
+[Init time]: (Friday, 24 of July 2015)
 
-[20:23:22] [ BEGIN ] -- Creating Render --
+[19:44:50] [ BEGIN ] -- Creating Render --
                      {
-[20:23:22] [ BEGIN ]    -- Creating SDL window --
+[19:44:50] [ BEGIN ]    -- Creating SDL window --
                         {
            [  OK   ]       Window created
            [ INFO  ]       Mode: Window
                         }
-[20:23:22] [  END  ]    Window OK [Elapsed time = 0.013 seg]
-[20:23:22] [ BEGIN ]    -- Initializing Direct3D --
+[19:44:50] [  END  ]    Window OK [Elapsed time = 0.012 seg]
+[19:44:50] [ BEGIN ]    -- Initializing Direct3D --
                         {
            [  OK   ]       Creating D3D object
            [  OK   ]       Obtaining the adapter
            [  OK   ]       Creating the device (D3DCREATE_HARDWARE_VERTEXPROCESSING)
            [ INFO  ]       Video mode: 1366 x 768 x 32
                         }
-[20:23:22] [  END  ]    Direct3D OK [Elapsed time = 0.013 seg]
-[20:23:22] [ BEGIN ]    -- Hardware information --
+[19:44:50] [  END  ]    Direct3D OK [Elapsed time = 0.011 seg]
+[19:44:50] [ BEGIN ]    -- Hardware information --
                         {
            [ INFO  ]       Direct3D version: DXSDK November 2007
            [ INFO  ]       Mark: ?
@@ -41,39 +41,39 @@ Indielib version: 0.5.1
            [ INFO  ]       Vertex Shader: 3 . 0 
            [ INFO  ]       Pixel Shader: 3 . 0
                         }
-[20:23:22] [  END  ]    Hardware Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Initializing ImageManager --
+[19:44:50] [  END  ]    Hardware Ok [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Initializing ImageManager --
                         {
            [  OK   ]       Preparing ImageManager
            [ INFO  ]       Using FreeImage version:  3.15.3
            [ INFO  ]       Copyright:  This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
                         }
-[20:23:22] [  END  ]    ImageManager Initialised [Elapsed time = 0.001 seg]
-[20:23:22] [ BEGIN ]    -- Initializing SurfaceManager --
+[19:44:50] [  END  ]    ImageManager Initialised [Elapsed time = 0.001 seg]
+[19:44:50] [ BEGIN ]    -- Initializing SurfaceManager --
                         {
            [  OK   ]       Checking IND_Render
            [  OK   ]       Checking IND_ImageManager
                         }
-[20:23:22] [  END  ]    SurfaceManager OK [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Initializing AnimationManager --
+[19:44:50] [  END  ]    SurfaceManager OK [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Initializing AnimationManager --
                         {
            [  OK   ]       SurfaceManager Ok
            [  OK   ]       ImageManager Ok
                         }
-[20:23:22] [  END  ]    AnimationManager OK [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Initializing FontManager --
+[19:44:50] [  END  ]    AnimationManager OK [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Initializing FontManager --
                         {
            [  OK   ]       SurfaceManager Ok
            [  OK   ]       ImageManager Ok
                         }
-[20:23:22] [  END  ]    FontManager OK [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Initializing Entity2dManager --
+[19:44:50] [  END  ]    FontManager OK [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Initializing Entity2dManager --
                         {
            [  OK   ]       Preparing Entity2dManager
            [  OK   ]        Checking IND_Render
                         }
-[20:23:22] [  END  ]    Entity2dManager OK [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Loading Image --
+[19:44:50] [  END  ]    Entity2dManager OK [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Loading Image --
                         {
            [ INFO  ]       File name: resources/Backgrounds/18.jpg
            [ INFO  ]       Extension: jpg
@@ -81,8 +81,8 @@ Indielib version: 0.5.1
            [ INFO  ]       Bpp: 3
            [ INFO  ]       Format: IND_RGB
                         }
-[20:23:22] [  END  ]    Image loaded [Elapsed time = 0.094 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:50] [  END  ]    Image loaded [Elapsed time = 0.089 seg]
+[19:44:50] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: resources/Backgrounds/18.jpg
            [  OK   ]       Image type converted to 32-bit RGB implicitly.
@@ -93,13 +93,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 448 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.027 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:50] [  END  ]    Surface created [Elapsed time = 0.024 seg]
+[19:44:50] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: resources/Backgrounds/18.jpg
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Loading Image --
+[19:44:50] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Loading Image --
                         {
            [ INFO  ]       File name: resources/font_small.png
            [ INFO  ]       Extension: png
@@ -107,11 +107,11 @@ Indielib version: 0.5.1
            [ INFO  ]       Bpp: 4
            [ INFO  ]       Format: IND_RGBA
                         }
-[20:23:22] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
-[20:23:22] [ BEGIN ]    -- Parsing and loading font --
+[19:44:50] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[19:44:50] [ BEGIN ]    -- Parsing and loading font --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/font_small.xml
-[20:23:22] [ BEGIN ]       -- Creating surface --
+[19:44:50] [ BEGIN ]       -- Creating surface --
                            {
            [ INFO  ]          From image: resources/font_small.png
            [ INFO  ]          Type: IND_ALPHA
@@ -121,25 +121,25 @@ Indielib version: 0.5.1
            [ INFO  ]          Number of blocks: 1 x 1
            [ INFO  ]          Spare (Right | Down): 0 x 0
                            }
-[20:23:22] [  END  ]       Surface created [Elapsed time = 0 seg]
+[19:44:50] [  END  ]       Surface created [Elapsed time = 0.001 seg]
                         }
-[20:23:22] [  END  ]    Font parsed and loaded [Elapsed time = 0.001 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:50] [  END  ]    Font parsed and loaded [Elapsed time = 0.001 seg]
+[19:44:50] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: resources/font_small.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Adding 2d entity --
+[19:44:50] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Adding 2d entity --
                         {
            [ INFO  ]       Name: 0
                         }
-[20:23:22] [  END  ]    2d entity added [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Adding 2d entity --
+[19:44:50] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Adding 2d entity --
                         {
            [ INFO  ]       Name: 1
                         }
-[20:23:22] [  END  ]    2d entity added [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Loading Image --
+[19:44:50] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Loading Image --
                         {
            [ INFO  ]       File name: ./resources/planets/1.png
            [ INFO  ]       Extension: png
@@ -147,8 +147,8 @@ Indielib version: 0.5.1
            [ INFO  ]       Bpp: 4
            [ INFO  ]       Format: IND_RGBA
                         }
-[20:23:22] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:50] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[19:44:50] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ./resources/planets/1.png
            [ INFO  ]       Type: IND_ALPHA
@@ -158,21 +158,21 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 28 x 28
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:50] [  END  ]    Surface created [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ./resources/planets/1.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Adding 2d entity --
+[19:44:50] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Adding 2d entity --
                         {
            [ INFO  ]       Name: 2
                         }
-[20:23:22] [  END  ]    2d entity added [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Parsing and loading animation --
+[19:44:50] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Parsing and loading animation --
                         {
            [ INFO  ]       File name: ./resources/Spaceship with motor new/Ship_advance.xml
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/1.png
            [ INFO  ]          Extension: png
@@ -180,8 +180,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/2.png
            [ INFO  ]          Extension: png
@@ -189,8 +189,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/3.png
            [ INFO  ]          Extension: png
@@ -198,8 +198,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/4.png
            [ INFO  ]          Extension: png
@@ -207,8 +207,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/5.png
            [ INFO  ]          Extension: png
@@ -216,8 +216,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.016 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/6.png
            [ INFO  ]          Extension: png
@@ -225,8 +225,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.017 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/7.png
            [ INFO  ]          Extension: png
@@ -234,8 +234,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.017 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.018 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/8.png
            [ INFO  ]          Extension: png
@@ -243,8 +243,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/9.png
            [ INFO  ]          Extension: png
@@ -252,8 +252,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.016 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/10.png
            [ INFO  ]          Extension: png
@@ -261,8 +261,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.016 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/11.png
            [ INFO  ]          Extension: png
@@ -270,8 +270,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.016 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/12.png
            [ INFO  ]          Extension: png
@@ -279,8 +279,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/13.png
            [ INFO  ]          Extension: png
@@ -288,8 +288,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/14.png
            [ INFO  ]          Extension: png
@@ -297,8 +297,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.016 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/15.png
            [ INFO  ]          Extension: png
@@ -306,10 +306,10 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:50] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
                         }
-[20:23:22] [  END  ]    Animation parsed and loaded [Elapsed time = 0.234 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:50] [  END  ]    Animation parsed and loaded [Elapsed time = 0.231 seg]
+[19:44:50] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/1.png
            [ INFO  ]       Type: IND_ALPHA
@@ -319,13 +319,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:50] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:50] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/1.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:50] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:50] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/2.png
            [ INFO  ]       Type: IND_ALPHA
@@ -335,13 +335,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/2.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/3.png
            [ INFO  ]       Type: IND_ALPHA
@@ -351,13 +351,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/3.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/4.png
            [ INFO  ]       Type: IND_ALPHA
@@ -367,13 +367,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/4.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/5.png
            [ INFO  ]       Type: IND_ALPHA
@@ -383,13 +383,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/5.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/6.png
            [ INFO  ]       Type: IND_ALPHA
@@ -399,13 +399,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/6.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/7.png
            [ INFO  ]       Type: IND_ALPHA
@@ -415,13 +415,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/7.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/8.png
            [ INFO  ]       Type: IND_ALPHA
@@ -431,13 +431,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/8.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/9.png
            [ INFO  ]       Type: IND_ALPHA
@@ -447,13 +447,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/9.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/10.png
            [ INFO  ]       Type: IND_ALPHA
@@ -463,13 +463,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/10.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/11.png
            [ INFO  ]       Type: IND_ALPHA
@@ -479,13 +479,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/11.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/12.png
            [ INFO  ]       Type: IND_ALPHA
@@ -495,13 +495,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/12.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/13.png
            [ INFO  ]       Type: IND_ALPHA
@@ -511,13 +511,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/13.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/14.png
            [ INFO  ]       Type: IND_ALPHA
@@ -527,13 +527,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/14.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/15.png
            [ INFO  ]       Type: IND_ALPHA
@@ -543,16 +543,16 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/15.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Parsing and loading animation --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Parsing and loading animation --
                         {
            [ INFO  ]       File name: resources/Spaceship with motor new/Ship_still.xml
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship with motor new/1.png
            [ INFO  ]          Extension: png
@@ -560,10 +560,10 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.015 seg]
                         }
-[20:23:22] [  END  ]    Animation parsed and loaded [Elapsed time = 0.015 seg]
-[20:23:22] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Animation parsed and loaded [Elapsed time = 0.016 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship with motor new/1.png
            [ INFO  ]       Type: IND_ALPHA
@@ -573,16 +573,16 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:22] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:22] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship with motor new/1.png
                         }
-[20:23:22] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:22] [ BEGIN ]    -- Parsing and loading animation --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Parsing and loading animation --
                         {
            [ INFO  ]       File name: resources/Spaceship rotation smoke/LEFT/Rotate_left.xml
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/1.png
            [ INFO  ]          Extension: png
@@ -590,8 +590,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:22] [  END  ]       Image loaded [Elapsed time = 0.018 seg]
-[20:23:22] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/2.png
            [ INFO  ]          Extension: png
@@ -599,8 +599,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/3.png
            [ INFO  ]          Extension: png
@@ -608,8 +608,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/4.png
            [ INFO  ]          Extension: png
@@ -617,8 +617,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/5.png
            [ INFO  ]          Extension: png
@@ -626,8 +626,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/6.png
            [ INFO  ]          Extension: png
@@ -635,8 +635,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/7.png
            [ INFO  ]          Extension: png
@@ -644,8 +644,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/8.png
            [ INFO  ]          Extension: png
@@ -653,8 +653,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.022 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/9.png
            [ INFO  ]          Extension: png
@@ -662,8 +662,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/10.png
            [ INFO  ]          Extension: png
@@ -671,8 +671,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/11.png
            [ INFO  ]          Extension: png
@@ -680,8 +680,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/12.png
            [ INFO  ]          Extension: png
@@ -689,8 +689,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/13.png
            [ INFO  ]          Extension: png
@@ -698,8 +698,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/14.png
            [ INFO  ]          Extension: png
@@ -707,8 +707,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.022 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/15.png
            [ INFO  ]          Extension: png
@@ -716,10 +716,10 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
                         }
-[20:23:23] [  END  ]    Animation parsed and loaded [Elapsed time = 0.293 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Animation parsed and loaded [Elapsed time = 0.292 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/1.png
            [ INFO  ]       Type: IND_ALPHA
@@ -729,13 +729,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/1.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/2.png
            [ INFO  ]       Type: IND_ALPHA
@@ -745,13 +745,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/2.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/3.png
            [ INFO  ]       Type: IND_ALPHA
@@ -761,13 +761,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/3.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/4.png
            [ INFO  ]       Type: IND_ALPHA
@@ -777,13 +777,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/4.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/5.png
            [ INFO  ]       Type: IND_ALPHA
@@ -793,13 +793,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.011 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/5.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/6.png
            [ INFO  ]       Type: IND_ALPHA
@@ -809,13 +809,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.012 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/6.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/7.png
            [ INFO  ]       Type: IND_ALPHA
@@ -825,13 +825,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.012 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/7.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/8.png
            [ INFO  ]       Type: IND_ALPHA
@@ -841,13 +841,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.01 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/8.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/9.png
            [ INFO  ]       Type: IND_ALPHA
@@ -857,13 +857,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/9.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/10.png
            [ INFO  ]       Type: IND_ALPHA
@@ -873,13 +873,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/10.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/11.png
            [ INFO  ]       Type: IND_ALPHA
@@ -889,13 +889,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/11.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/12.png
            [ INFO  ]       Type: IND_ALPHA
@@ -905,13 +905,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/12.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/13.png
            [ INFO  ]       Type: IND_ALPHA
@@ -921,13 +921,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/13.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/14.png
            [ INFO  ]       Type: IND_ALPHA
@@ -937,13 +937,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/14.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/15.png
            [ INFO  ]       Type: IND_ALPHA
@@ -953,16 +953,16 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/LEFT/15.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Parsing and loading animation --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Parsing and loading animation --
                         {
            [ INFO  ]       File name: resources/Spaceship rotation smoke/RIGHT/Rotate_right.xml
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/1.png
            [ INFO  ]          Extension: png
@@ -970,8 +970,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.018 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/2.png
            [ INFO  ]          Extension: png
@@ -979,8 +979,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.018 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/3.png
            [ INFO  ]          Extension: png
@@ -988,8 +988,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/4.png
            [ INFO  ]          Extension: png
@@ -997,8 +997,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/5.png
            [ INFO  ]          Extension: png
@@ -1006,8 +1006,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/6.png
            [ INFO  ]          Extension: png
@@ -1015,8 +1015,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/7.png
            [ INFO  ]          Extension: png
@@ -1024,8 +1024,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/8.png
            [ INFO  ]          Extension: png
@@ -1033,8 +1033,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/9.png
            [ INFO  ]          Extension: png
@@ -1042,8 +1042,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/10.png
            [ INFO  ]          Extension: png
@@ -1051,8 +1051,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/11.png
            [ INFO  ]          Extension: png
@@ -1060,8 +1060,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/12.png
            [ INFO  ]          Extension: png
@@ -1069,8 +1069,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/13.png
            [ INFO  ]          Extension: png
@@ -1078,8 +1078,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/14.png
            [ INFO  ]          Extension: png
@@ -1087,8 +1087,8 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
-[20:23:23] [ BEGIN ]       -- Loading Image --
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [ BEGIN ]       -- Loading Image --
                            {
            [ INFO  ]          File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/15.png
            [ INFO  ]          Extension: png
@@ -1096,10 +1096,10 @@ Indielib version: 0.5.1
            [ INFO  ]          Bpp: 4
            [ INFO  ]          Format: IND_RGBA
                            }
-[20:23:23] [  END  ]       Image loaded [Elapsed time = 0.019 seg]
+[19:44:51] [  END  ]       Image loaded [Elapsed time = 0.02 seg]
                         }
-[20:23:23] [  END  ]    Animation parsed and loaded [Elapsed time = 0.287 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Animation parsed and loaded [Elapsed time = 0.291 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/1.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1109,13 +1109,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/1.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/2.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1125,13 +1125,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/2.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/3.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1141,13 +1141,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/3.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/4.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1157,13 +1157,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.007 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/4.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/5.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1173,13 +1173,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/5.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/6.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1189,13 +1189,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/6.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/7.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1205,13 +1205,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/7.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/8.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1221,13 +1221,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/8.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/9.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1237,13 +1237,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.009 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/9.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/10.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1253,13 +1253,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.01 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/10.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/11.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1269,13 +1269,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.009 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.009 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/11.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0.001 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/12.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1285,13 +1285,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.01 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/12.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/13.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1301,13 +1301,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.009 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/13.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/14.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1317,13 +1317,13 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.009 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/14.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Creating surface --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0 seg]
+[19:44:51] [ BEGIN ]    -- Creating surface --
                         {
            [ INFO  ]       From image: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/15.png
            [ INFO  ]       Type: IND_ALPHA
@@ -1333,277 +1333,277 @@ Indielib version: 0.5.1
            [ INFO  ]       Number of blocks: 1 x 1
            [ INFO  ]       Spare (Right | Down): 424 x 848
                         }
-[20:23:23] [  END  ]    Surface created [Elapsed time = 0.008 seg]
-[20:23:23] [ BEGIN ]    -- Freeing image --
+[19:44:51] [  END  ]    Surface created [Elapsed time = 0.007 seg]
+[19:44:51] [ BEGIN ]    -- Freeing image --
                         {
            [ INFO  ]       File name: ../SpaceGame/resources/Spaceship rotation smoke/RIGHT/15.png
                         }
-[20:23:23] [  END  ]    Ok [Elapsed time = 0 seg]
-[20:23:23] [ BEGIN ]    -- Adding 2d entity --
+[19:44:51] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[19:44:51] [ BEGIN ]    -- Adding 2d entity --
                         {
            [ INFO  ]       Name: 3
                         }
-[20:23:23] [  END  ]    2d entity added [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]    -- Finalizing Entity2dManager --
+[19:44:51] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[19:45:15] [ BEGIN ]    -- Finalizing Entity2dManager --
                         {
-[20:23:30] [ BEGIN ]       -- Freeing 2d entities --
+[19:45:15] [ BEGIN ]       -- Freeing 2d entities --
                            {
            [ INFO  ]          Freeing 2d entity: 0
            [ INFO  ]          Freeing 2d entity: 0
            [ INFO  ]          Freeing 2d entity: 0
            [ INFO  ]          Freeing 2d entity: 0
                            }
-[20:23:30] [  END  ]       Entities freed [Elapsed time = 0 seg]
+[19:45:15] [  END  ]       Entities freed [Elapsed time = 0 seg]
                         }
-[20:23:30] [  END  ]    IND_Entity2dManager finalized [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]    -- Finalizing FontManager --
+[19:45:15] [  END  ]    IND_Entity2dManager finalized [Elapsed time = 0 seg]
+[19:45:15] [ BEGIN ]    -- Finalizing FontManager --
                         {
-[20:23:30] [ BEGIN ]       -- Freeing fonts --
+[19:45:15] [ BEGIN ]       -- Freeing fonts --
                            {
            [ INFO  ]          Freeing font: ../SpaceGame/resources/font_small.xml
-[20:23:30] [ BEGIN ]          -- Freeing surface --
+[19:45:15] [ BEGIN ]          -- Freeing surface --
                               {
                               }
-[20:23:30] [  END  ]          Ok [Elapsed time = 0 seg]
+[19:45:15] [  END  ]          Ok [Elapsed time = 0 seg]
                            }
-[20:23:30] [  END  ]       Fonts freed [Elapsed time = 0 seg]
+[19:45:15] [  END  ]       Fonts freed [Elapsed time = 0 seg]
                         }
-[20:23:30] [  END  ]    FontManager finalized [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]    -- Finalizing AnimationManager --
+[19:45:15] [  END  ]    FontManager finalized [Elapsed time = 0 seg]
+[19:45:15] [ BEGIN ]    -- Finalizing AnimationManager --
                         {
-[20:23:30] [ BEGIN ]       -- Freeing animations --
+[19:45:15] [ BEGIN ]       -- Freeing animations --
                            {
-[20:23:30] [ BEGIN ]          -- Freeing animation --
+[19:45:15] [ BEGIN ]          -- Freeing animation --
                               {
            [ INFO  ]             Name: ./resources/Spaceship with motor new/Ship_advance.xml
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.003 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.003 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
                               }
-[20:23:30] [  END  ]          Ok [Elapsed time = 0.026 seg]
-[20:23:30] [ BEGIN ]          -- Freeing animation --
+[19:45:15] [  END  ]          Ok [Elapsed time = 0.026 seg]
+[19:45:15] [ BEGIN ]          -- Freeing animation --
                               {
            [ INFO  ]             Name: resources/Spaceship with motor new/Ship_still.xml
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
+[19:45:15] [  END  ]             Ok [Elapsed time = 0 seg]
                               }
-[20:23:30] [  END  ]          Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]          -- Freeing animation --
+[19:45:15] [  END  ]          Ok [Elapsed time = 0 seg]
+[19:45:15] [ BEGIN ]          -- Freeing animation --
                               {
            [ INFO  ]             Name: resources/Spaceship rotation smoke/LEFT/Rotate_left.xml
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.002 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
                               }
-[20:23:30] [  END  ]          Ok [Elapsed time = 0.013 seg]
-[20:23:30] [ BEGIN ]          -- Freeing animation --
+[19:45:15] [  END  ]          Ok [Elapsed time = 0.024 seg]
+[19:45:15] [ BEGIN ]          -- Freeing animation --
                               {
            [ INFO  ]             Name: resources/Spaceship rotation smoke/RIGHT/Rotate_right.xml
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0.001 seg]
-[20:23:30] [ BEGIN ]             -- Freeing surface --
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[19:45:15] [ BEGIN ]             -- Freeing surface --
                                  {
                                  }
-[20:23:30] [  END  ]             Ok [Elapsed time = 0 seg]
+[19:45:15] [  END  ]             Ok [Elapsed time = 0.002 seg]
                               }
-[20:23:30] [  END  ]          Ok [Elapsed time = 0.012 seg]
+[19:45:15] [  END  ]          Ok [Elapsed time = 0.022 seg]
                            }
-[20:23:30] [  END  ]       Animations freed [Elapsed time = 0.051 seg]
+[19:45:15] [  END  ]       Animations freed [Elapsed time = 0.072 seg]
                         }
-[20:23:30] [  END  ]    AnimationManager finalized [Elapsed time = 0.051 seg]
-[20:23:30] [ BEGIN ]    -- Finalizing SurfaceManager --
+[19:45:15] [  END  ]    AnimationManager finalized [Elapsed time = 0.072 seg]
+[19:45:15] [ BEGIN ]    -- Finalizing SurfaceManager --
                         {
-[20:23:30] [ BEGIN ]       -- Freeing surfaces --
+[19:45:15] [ BEGIN ]       -- Freeing surfaces --
                            {
            [ INFO  ]          Freeing surface:           [ INFO  ]          Freeing surface:                           }
-[20:23:30] [  END  ]       Surfaces freed [Elapsed time = 0.003 seg]
+[19:45:15] [  END  ]       Surfaces freed [Elapsed time = 0.003 seg]
                         }
-[20:23:30] [  END  ]    IND_SurfaceManager finalized [Elapsed time = 0.003 seg]
-[20:23:30] [ BEGIN ]    -- Finalizing ImageManager --
+[19:45:15] [  END  ]    IND_SurfaceManager finalized [Elapsed time = 0.003 seg]
+[19:45:15] [ BEGIN ]    -- Finalizing ImageManager --
                         {
-[20:23:30] [ BEGIN ]       -- Freeing images --
+[19:45:15] [ BEGIN ]       -- Freeing images --
                            {
                            }
-[20:23:30] [  END  ]       Images freed [Elapsed time = 0 seg]
+[19:45:15] [  END  ]       Images freed [Elapsed time = 0 seg]
                         }
-[20:23:30] [  END  ]    ImageManager finalized [Elapsed time = 0 seg]
-[20:23:30] [ BEGIN ]    -- Finalizing Direct3D --
+[19:45:15] [  END  ]    ImageManager finalized [Elapsed time = 0 seg]
+[19:45:15] [ BEGIN ]    -- Finalizing Direct3D --
                         {
            [  OK   ]       Finalizing the Device
            [  OK   ]       Finalizing D3D object
-[20:23:30] [ BEGIN ]       -- Finalizing the window --
+[19:45:15] [ BEGIN ]       -- Finalizing the window --
                            {
                            }
-[20:23:30] [  END  ]       Window finalized [Elapsed time = 0.006 seg]
+[19:45:15] [  END  ]       Window finalized [Elapsed time = 0.003 seg]
                         }
-[20:23:30] [  END  ]    Direct3D finalized  [Elapsed time = 0.012 seg]
+[19:45:15] [  END  ]    Direct3D finalized  [Elapsed time = 0.009 seg]

@@ -16,7 +16,6 @@ public:
 	IND_Key getQuickSave();
 	IND_Key getQuickLoad();
 	void loadSettings();
-	void writeMap();
 };
 #endif
 

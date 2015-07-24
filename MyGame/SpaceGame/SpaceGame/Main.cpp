@@ -50,7 +50,6 @@ int IndieLib()
 
 	Controls* controls = new Controls();
 	controls->loadSettings();
-	controls->writeMap();
 
 	Planet* mPlanet = new Planet();
 	mPlanet->createPlanet(mI, "./resources/planets/1.png", 100, 100, 0.5f, 0.5f);
