@@ -33,7 +33,7 @@ int IndieLib()
 	if (!mI->_surfaceManager->add(mSurfaceBack, "resources/Backgrounds/18.jpg", IND_OPAQUE, IND_32)) return 0;
 
 	IND_Font* mFont = IND_Font::newFont();
-	if (!mI->_fontManager->add(mFont, "resources/font_small.png", "../SpaceGame/resources/font_small.xml", IND_ALPHA, IND_32)) return 0;
+	if (!mI->_fontManager->add(mFont, "resources/font_small.png", "resources/font_small.xml", IND_ALPHA, IND_32)) return 0;
 
 	// Loding 2D Entities
 
@@ -52,10 +52,10 @@ int IndieLib()
 	controls->loadSettings();
 
 	Planet* mPlanet = new Planet();
-	mPlanet->createPlanet(mI, "./resources/planets/1.png", 100, 100, 0.5f, 0.5f);
+	mPlanet->createPlanet(mI, "resources/planets/1.png", 100, 100, 0.5f, 0.5f);
 
 	Ship* mShip = new Ship();
-	mShip->createShip(mI, "./resources/Spaceship with motor new/Ship_advance.xml", winWidth/2, winHeight/2, 0.1f, 0.1f);
+	mShip->createShip(mI, "resources/Spaceship with motor new/Ship_advance.xml", winWidth/2, winHeight/2);
 
 	while (!mI->_input->onKeyPress(IND_ESCAPE) && !mI->_input->quit())
 	{
