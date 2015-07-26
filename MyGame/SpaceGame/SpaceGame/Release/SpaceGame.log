@@ -1,21 +1,21 @@
-﻿Build started 25-Jul-15 21:37:55.
+﻿Build started 26-Jul-15 21:47:02.
      1>Project "E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\SpaceGame.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\common\include" /I"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\tools\editor_tileless" /I..\..\..\..\common\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Controls.cpp ErrorHandler.cpp Main.cpp Object.cpp Planet.cpp Save.cpp Ship.cpp
-         Controls.cpp
-         ErrorHandler.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\common\include" /I"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\tools\editor_tileless" /I..\..\..\..\common\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Planet.cpp Save.cpp Ship.cpp
          Main.cpp
-     1>Main.cpp(58): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
-         Object.cpp
-     1>Object.cpp(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-     1>Object.cpp(115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(56): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(59): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(60): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(67): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
          Planet.cpp
+     1>Planet.cpp(32): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>Planet.cpp(33): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
          Save.cpp
          Ship.cpp
-     1>Ship.cpp(135): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
-     1>Ship.cpp(136): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
-     1>Ship.cpp(137): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-     1>Ship.cpp(167): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Ship.cpp(131): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>Ship.cpp(132): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>Ship.cpp(133): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\bin\win" /LIBPATH:../../../../bin/win IndieLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.lib" /MACHINE:X86 /SAFESEH Release\Controls.obj
          Release\ErrorHandler.obj
@@ -32,4 +32,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:10.32
+Time Elapsed 00:00:08.17
