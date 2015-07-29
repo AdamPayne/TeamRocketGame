@@ -1,5 +1,6 @@
 [advance]:w
 [rotateLeft]:a
 [rotateRight]:d
+[shoot]:space
 [quickSave]:1
 [quickLoad]:2

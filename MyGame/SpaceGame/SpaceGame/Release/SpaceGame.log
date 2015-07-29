@@ -1,13 +1,15 @@
-﻿Build started 28-Jul-15 17:03:31.
+﻿Build started 29-Jul-15 20:09:23.
      1>Project "E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\SpaceGame.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\common\include" /I"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\tools\editor_tileless" /I"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\irrKlang\include" /I..\..\..\..\common\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Ship.cpp
          Ship.cpp
-     1>Ship.cpp(168): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-     1>Ship.cpp(169): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-     1>Ship.cpp(170): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Ship.cpp(183): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>Ship.cpp(184): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>Ship.cpp(187): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Ship.cpp(270): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\bin\win" /LIBPATH:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\irrKlang\lib\Win32-visualStudio" /LIBPATH:../../../../bin/win IndieLib.lib irrKlang.lib IndieLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.lib" /MACHINE:X86 /SAFESEH Release\Controls.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\bin\win" /LIBPATH:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\SpaceGame\irrKlang\lib\Win32-visualStudio" /LIBPATH:../../../../bin/win IndieLib.lib irrKlang.lib IndieLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Works\GameDev\GameDev\C-game-course\MyGame\SpaceGame\Release\SpaceGame.lib" /MACHINE:X86 /SAFESEH Release\Bullet.obj
+         Release\Controls.obj
          Release\ErrorHandler.obj
          Release\Main.obj
          Release\Object.obj
@@ -22,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.42
+Time Elapsed 00:00:06.00
