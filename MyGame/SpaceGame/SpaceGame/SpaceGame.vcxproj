@@ -89,9 +89,11 @@
     <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="Controls.cpp" />
     <ClCompile Include="ErrorHandler.cpp" />
+    <ClCompile Include="Hud.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="Satellite.cpp" />
     <ClCompile Include="Save.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="tools\editor_tileless\CIndieLib.cpp" />
@@ -100,8 +102,10 @@
     <ClInclude Include="Bullet.h" />
     <ClInclude Include="Controls.h" />
     <ClInclude Include="ErrorHandler.h" />
+    <ClInclude Include="Hud.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="Planet.h" />
+    <ClInclude Include="Satellite.h" />
     <ClInclude Include="Save.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="tools\editor_tileless\CIndieLib.h" />
