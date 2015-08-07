@@ -12,7 +12,7 @@
 #include "Save.h"
 #include "Ship.h"
 #include "Satellite.h"
-
+#include "Menu.h"
 /*
 ==================
 Main
@@ -57,6 +57,9 @@ int IndieLib()
 	Hud* mHud = new Hud();
 	mHud->createHud(mI);
 
+	Menu* mMenu = new Menu();
+	mMenu->createMenu(mI);
+
 	Save* quickSave = new Save();
 
 	vector<Planet*> mPlanets;
@@ -86,6 +89,7 @@ int IndieLib()
 	float mDelta = 0.0f;
 	while (!mI->_input->onKeyPress(IND_ESCAPE) && !mI->_input->quit())
 	{
+		mMenu->updateMenu();
 		// get delta time
 		mDelta = mI->_render->getFrameTime() / 1000.0f;
 
@@ -95,19 +99,21 @@ int IndieLib()
 		{
 			mDelta = 0.0;
 			loadSave = false;
-			error->clear();
+			mHud->getLoadingText()->setShow(false);
 			quickSave->loadSave(mI, mShip, mPlanets);
 			mHud->showHud();
 		}
+
 		if (mI->_input->onKeyPress(controls->getQuickSave()))
 		{
 			quickSave->makeSave(mI, mShip, mPlanets);
 		}
+
 		if (mI->_input->onKeyPress(controls->getQuickLoad()))
 		{
 			deleteObjects(mShip, mPlanets);
-			error->writeError(winWidth / 2.0f, winHeight / 2.0f, "Loading", "...");
 			mHud->hideHud();
+			mHud->getLoadingText()->setShow(true);
 			loadSave = true;
 		}
 		else
@@ -118,7 +124,7 @@ int IndieLib()
 				(*it)->updatePlanet(mDelta);
 			}
 		}
-
+		
 		//mI->_render->showFpsInWindowTitle();
 		mI->_input->update();
 		mI->_render->beginScene();
@@ -130,6 +136,7 @@ int IndieLib()
 	delete controls;
 	delete error;
 	delete mHud;
+	delete mMenu;
 	delete quickSave;
 	mI->_surfaceManager->remove(mSurfaceBack);
 	mI->_entity2dManager->remove(mBack);

@@ -1,6 +1,6 @@
 #include "Hud.h"
 
-Hud::Hud() : mFont(IND_Font::newFont()), bulletsText(IND_Entity2d::newEntity2d()), healthText(IND_Entity2d::newEntity2d()), scoreText(IND_Entity2d::newEntity2d())
+Hud::Hud() : mFont(IND_Font::newFont()), bulletsText(IND_Entity2d::newEntity2d()), healthText(IND_Entity2d::newEntity2d()), scoreText(IND_Entity2d::newEntity2d()), loadingText(IND_Entity2d::newEntity2d())
 {
 }
 
@@ -54,6 +54,16 @@ void Hud::setScoreText(IND_Entity2d* scoreText)
 	this->scoreText = scoreText;
 }
 
+IND_Entity2d * Hud::getLoadingText() const
+{
+	return loadingText;
+}
+
+void Hud::setLoadingText(IND_Entity2d* loadingText)
+{
+	this->loadingText = loadingText;
+}
+
 void Hud::createHud(CIndieLib* const mI)
 {
 	setMI(mI);
@@ -63,19 +73,28 @@ void Hud::createHud(CIndieLib* const mI)
 	getMI()->_entity2dManager->add(getBulletsText());
 	getMI()->_entity2dManager->add(getHealthText());
 	getMI()->_entity2dManager->add(getScoreText());
+	getMI()->_entity2dManager->add(getLoadingText());
 
 	getBulletsText()->setFont(getFont());
 	getHealthText()->setFont(getFont());
 	getScoreText()->setFont(getFont());
+	getLoadingText()->setFont(getFont());
 
 	getBulletsText()->setAlign(IND_LEFT);
 	getHealthText()->setAlign(IND_LEFT);
 	getScoreText()->setAlign(IND_LEFT);
+	getLoadingText()->setAlign(IND_CENTER);
 
 	int winWidth = getMI()->_window->getWidth();
+	int winHeight = getMI()->_window->getHeight();
+
 	getBulletsText()->setPosition(0, 0, 2);
 	getHealthText()->setPosition(winWidth * (1.2f / 3.0f), 0, 2);
 	getScoreText()->setPosition(winWidth * (2.0f / 3.0f), 0, 2);
+	getLoadingText()->setPosition(winWidth / 2.0f, winHeight / 2.0f, 2);
+
+	getLoadingText()->setText("Loading...");
+	getLoadingText()->setShow(false);
 }
 
 void Hud::updateHud(Ship* mShip)
