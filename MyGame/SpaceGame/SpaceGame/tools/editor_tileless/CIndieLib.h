@@ -6,6 +6,7 @@
 #define _CINDIELIB_
 
 #include "Indie.h"
+#include "IND_LightManager.h"
 
 class CIndieLib {
 public:

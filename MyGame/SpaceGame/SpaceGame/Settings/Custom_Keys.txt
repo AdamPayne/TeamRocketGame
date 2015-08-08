@@ -4,3 +4,4 @@
 [shoot]:space
 [quickSave]:1
 [quickLoad]:2
+[menu]:backquote

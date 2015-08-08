@@ -36,7 +36,7 @@ bool CIndieLib::init() {
 
 	_input = new     IND_Input;
 	_render = new     IND_Render;
-	//_lightManager      =   new     IND_LightManager;
+	_lightManager      =   new IND_LightManager;
 	_imageManager = new     IND_ImageManager;
 	_surfaceManager = new     IND_SurfaceManager;
 	//_meshManager           =   new     IND_3dMeshManager;
@@ -53,7 +53,7 @@ bool CIndieLib::init() {
 	if (!_window)
 		return 0;
 
-	//if (!_lightManager     ->init (_render))                                    return 0;
+	if (!_lightManager     ->init (_render))                                    return 0;
 	if (!_imageManager->init())                                           return 0;
 	if (!_surfaceManager->init(_imageManager, _render))                     return 0;
 	if (!_animationManager->init(_imageManager, _surfaceManager))             return 0;
