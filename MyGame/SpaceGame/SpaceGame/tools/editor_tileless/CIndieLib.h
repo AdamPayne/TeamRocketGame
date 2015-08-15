@@ -44,5 +44,4 @@ private:
 
 };
 
-
 #endif // _CINDIELIB_
