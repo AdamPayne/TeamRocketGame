@@ -43,5 +43,4 @@ private:
 	//void resetCurrentDirectory_W(void);
 
 };
-
 #endif // _CINDIELIB_
