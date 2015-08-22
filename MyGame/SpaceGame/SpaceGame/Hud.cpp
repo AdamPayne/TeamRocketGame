@@ -136,6 +136,7 @@ void Hud::hideHud()
 	getBulletsText()->setShow(false);
 	getHealthText()->setShow(false);
 	getScoreText()->setShow(false);
+	getGameOverText()->setShow(false);
 }
 
 void Hud::showHud()

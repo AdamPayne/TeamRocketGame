@@ -130,6 +130,7 @@ int IndieLib()
 					mHud->updateGameOverText(mShip->getScore());
 					deleteObjects(mHud, mShip, mPlanets);
 					mHud->getLoadingText()->setShow(false);
+					mHud->getGameOverText()->setShow(true);
 					mMenu->show();
 				}
 				if(mShip!=NULL)
